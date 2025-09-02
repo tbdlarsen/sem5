@@ -57,3 +57,31 @@ this comprises four fundamental activities;
 * Software evolution
 	software is modified to reflect changung customer and market requirements.
 
+Software engineering is related to both computer science and system engineering, where comp Sci is theory based and system engineering is more concerned with all aspects of software engineering.
+
+There are three general issues that affect many different types of software:
+* Heterogeneity, diverse systems, 
+	Software has to apply across networks in distributed systems so it has to be compatible with legacy systems along with newer ones, and across operating systems etc.
+* Business and social change
+	Business and social changes fast, so software has to be able to evolve along with it.
+* Security and trust
+	Security is very important especially in web services.
+
+These issues are non-independent meaning more than one can apply to a single piece of software
+
+
+### Software engineering diversity
+There exists no one-fits-all method to software engineering, it is largely dependent on what type of software is being developed. 
+Among these types of applications are;
+* Stand-alone appliations
+* Interactive transaction-based applications
+* embedded control systems
+* Batch processing systems
+* Entertainment systems
+* Systems for modeling and simulation
+* Data collection systems
+* System of systems
+
+It is important to note that these are not set-in-stone categories and systems may require some aspects from one category along with others.
+All systems should adhere to the methods of figure 1.2.
+

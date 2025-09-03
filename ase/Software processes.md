@@ -111,7 +111,22 @@ Incrementally delivering the software system has a list of pros and cons
 
 
 ### Process improvement
+To understand existing processes and changing these processes to increase product quality and/or reduce costs and development time. Two approaches for this are 
+###### Process maturity
+This approach focuses on improving process and project management and introducing good software engineering practices into and organization. The primary goals of this approach are improved product quality and process predictability. 
 
+
+![[process improvement cycle.png]]
+The general improvement process underlying in the process maturity approach is a cyclical process;
+* Process measurement
+		Measuring one or more attributes of the software process or product to form a baseline for the effectiveness of the improvements. These are then re-measured when features are added to see if they have improved.
+* Process analysis
+	  Identifying  weaknesses and bottlenecks of the current process. This stage may introduce process models (maps) to describe the process. To focus the analysis consider process characteristics like rapidity or robustness. 
+* Process change
+	  
+
+###### Agility
+This approach is focused on iterative development and the reduction of overheads in the software process. Primary characteristics include rapid delivery of functionality and responsiveness to customers changing requirements. more in [[Agile software development]]
 
 
 # KEY POINTS

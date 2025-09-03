@@ -108,5 +108,16 @@ Incrementally delivering the software system has a list of pros and cons
 * Iterative delivery is problematic when a new system is supposed to replace an old one. Users need the full functionality while only receiving it piece-wise. Often it is impractical to use the old system along with the new one until it is finished.
 * Most systems require a set of basic functionalities to be used across different parts of the system. As requirements are not defined in detail until an increment is to be implemented, finding common facilities to be used across the system is hard.
 * The essence of the iterative process is that the specifications are not yet fully developed and change between increments. This is often opposite of how companies work were the specifications are mostly set in the contract before development begins.
- #todo Coping with change
-#todo elaborate fundamental development activities.
+
+
+### Process improvement
+
+
+
+# KEY POINTS
+* Requirements engineering is the process of developing a software specification. Specifications are intended to communicate the system need of the customer to the system developers.
+* Design and implementation processes are concerned with transforming a requirements specification into an executable software system.
+* Software validation is the process of checking that the system conforms to its specification and that it meets the real needs of the users of the system.
+* Software evolution takes place when you change existing software systems to meet new requirements. Changes are continuous, and the software must evolve to remain useful.
+* Processes should include activities to cope with change. This may involve a prototyping phase that helps avid poor decisions on requirements and design. Processes may be structured for iterative development and delivery so that changes may be made without disrupting the system as a whole.
+* Process improvement is the process of improving existing software processes to improve software quality, lower development costs, or reduce development time. It is a cyclic process involving process measurement, analysis, and change.

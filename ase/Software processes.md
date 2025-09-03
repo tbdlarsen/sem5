@@ -48,24 +48,65 @@ The problems of the incremental approach from a management perspective;
 2. System structure tends to degrade as new increments are added. 
 
 
-
-### Reuse-oriented software engineering
+### Integration and configuration
 Based on reusing software. Although the initial requirements specification stage and the validation stage are comparable with other software processes, the intermediate stages in a reuse oriented process are different.
-![[Reuse-oriented software engineering.png]]
+![[Integration and configuration.png]]
 
-###### Component analysis
-Given the requirements specification, a search is made for components to implement that specification, as good as possible.
-###### Requirements modification
-Requirements are analyzed using information about the components that have been discovered, they are then modified to fit the components. If impossible search for alternative solutions
-###### System design with reuse
-Designing the framework or reuse of an existing one. Designers take into account the components and organize the framework to fit them.
-###### Development and integration
-Software that cannot be externally procured is developed, and the components and COTS systems are integrated to create the new system
+###### Requirement specification
+Inclusion of brief description of initial requirements for the product.
+###### Software discovery and software evaluation
+A search is made based on the requirement specification to find software that provide the functionality required, these are then evaluated. 
+###### Requirements refinement
+Refinement of the requirements based on the found software and how it is compatible with the requirements.
+###### Application system configuration
+Configuring an off-the-shelf solution if one is suitable.
+###### Component adaptation and integration
+if not off-the-shelf solution is available, configure individual components or modify to suit the problem solution.
 
 
 There are three types of software component that may be used in a reuse-oriented process. These are web services, Collections of objects that developed to be integrated with a component framework e.g. .Net or J2EE, and lastly, stand-alone software that are configured to be used in a specific environment.
 
 
-#todo Integration and configuration model, see slides
-#todo Coping with change
+### Coping with change
+Change in software development is inevitable and expensive but there are some methods to use to reduce the cost and increase the adaptability of the software.
+
+Approaches to reduce change cost;
+###### Change anticipation
+Including activities to anticipate or predict possible areas that are subject to change in the [[#software process]]. An example of this is [[#System Prototyping]] which provides users with a quick solution that is easier to change than the finished product.
+###### Change tolerance
+Designing the solution so that changes can be made easily, involving some form of [[#Incremental development]]. Proposed changes can then be made in upcoming increments so that only a single increment may have to be altered, and only affect the [[#Incremental Delivery]]
+
+
+###### System Prototyping
+An early version of the software system used to demonstrate concepts, try design options etc. 
+![[Prototype development.png]]
+
+**Establish prototype objectives**
+The objectives of the prototype should be made clear from the start. E.g. If the goal is to create the UI or Demonstrate application to managers.
+
+**Define prototype functionality**
+Defining the prototypes functionalities, what to keep in and importantly what to keep out.
+
+**Develop prototype**
+Actually develop the prototype
+
+**Evaluate prototype**
+What the testers of the prototype think of the prototype, one important thing to note is that the users of the prototype may not use it as they would the final product.
+
+
+###### Incremental Delivery
+developing and delivering the software in increments, where each increments provides additional functionality from the last. 
+![[Incremental Delivery.png]]
+
+Incrementally delivering the software system has a list of pros and cons
+**Pros**
+* Customers can use early increments as [[#System Prototyping|prototypes]] and gain the same benefits while negating the cons. 
+* If the first increments satisfies the users requirements they do not have to wait for the final system before using it.
+* It has the benefits of [[#Incremental development]] meaning it should be relatively easy to incorporate customer changes.
+* As the most critical system requirements are delivered the most critical system services receive the most testing
+**Cons**
+* Iterative delivery is problematic when a new system is supposed to replace an old one. Users need the full functionality while only receiving it piece-wise. Often it is impractical to use the old system along with the new one until it is finished.
+* Most systems require a set of basic functionalities to be used across different parts of the system. As requirements are not defined in detail until an increment is to be implemented, finding common facilities to be used across the system is hard.
+* The essence of the iterative process is that the specifications are not yet fully developed and change between increments. This is often opposite of how companies work were the specifications are mostly set in the contract before development begins.
+ #todo Coping with change
 #todo elaborate fundamental development activities.

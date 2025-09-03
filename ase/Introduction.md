@@ -86,6 +86,8 @@ There are three general issues that affect many different types of software:
 	Business and social changes fast, so software has to be able to evolve along with it.
 * Security and trust
 	Security is very important especially in web services.
+* Scale
+	  The general scale of software products has grown.
 
 These issues are non-independent meaning more than one can apply to a single piece of software
 

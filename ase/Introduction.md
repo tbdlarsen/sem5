@@ -7,8 +7,9 @@ Introduction to what makes software engineering, what requirements there are for
 	* Lack of software methods and techniques
 	Causes more expensive and less reliable software.
 	Can be fixed by better education and training.
-
-
+* Delays 
+* Budget
+* Assessment of quality if difficult
 ### Software development
 * Target group
 	* Professional rather than individual

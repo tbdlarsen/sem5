@@ -169,50 +169,14 @@
       "bases:Create new base": false
     }
   },
-  "floating": {
-    "id": "6fc7b1ff8cc3c25f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "86ba8e7ae8960d3f",
-        "type": "window",
-        "children": [
-          {
-            "id": "bb63e55826c020c8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2c831154bf2da9ad",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "ase/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Software-Engineering-9th-Edition-by-Ian-Sommerville"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1576,
-        "height": 1000,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "7205106db1459368",
   "lastOpenFiles": [
-    "ase/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf",
+    "ase/Images",
+    "ase/Introduction.md",
     "ase/Software processes.md",
-    "ase/Reuse-oriented software engineering.png",
-    "ase/Incemental development.jpg",
-    "ase/Waterfall-model.jpg",
-    "ase/Introduction.md"
+    "ase/Images/Waterfall-model.jpg",
+    "ase/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf",
+    "ase/Images/Reuse-oriented software engineering.png",
+    "ase/Images/Incemental development.jpg"
   ]
 }

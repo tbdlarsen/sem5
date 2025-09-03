@@ -64,3 +64,8 @@ Software that cannot be externally procured is developed, and the components and
 
 
 There are three types of software component that may be used in a reuse-oriented process. These are web services, Collections of objects that developed to be integrated with a component framework e.g. .Net or J2EE, and lastly, stand-alone software that are configured to be used in a specific environment.
+
+
+#todo Integration and configuration model, see slides
+#todo Coping with change
+#todo elaborate fundamental development activities.

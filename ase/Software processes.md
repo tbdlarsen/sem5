@@ -123,7 +123,21 @@ The general improvement process underlying in the process maturity approach is a
 * Process analysis
 	  Identifying  weaknesses and bottlenecks of the current process. This stage may introduce process models (maps) to describe the process. To focus the analysis consider process characteristics like rapidity or robustness. 
 * Process change
-	  
+	  Proposed changes to address the weaknesses discovered in analysis.
+
+![[Capability maturity levels.png]]
+The levels of capability maturity defined in the Humphrey model shown above shows how focused the organization is on capability maturity
+1. Initial
+   The goals associated with the process area are satisfied and for all processes the scope of the work to be performed is explicitly set out and communicated to the team members.
+2. Managed
+   The goals associated with the process area are met, and organizational policies are in place that define when each process should be used. There must be documented project plant that define the project goals. Resource management and process monitoring procedures must be in place across the institution.
+3. Defined
+   Focused on organizational standardization and deployment of processes. Each project has a managed process that is adapted to the project requirements from a defined set of organizational processes. Process assets and process measurements must be collected and used for future process improvements.
+4. Quantitatively managed
+   There is an organizational responsibility to use statistical and other quantitative methods to control sub-processes. Meaning collected process and product measurements must be used in process management. 
+5. Optimizing
+   The organization must use the process and product measurement to drive process improvement. Trends must be analyzed and the process adapted to changing business needs.
+
 
 ###### Agility
 This approach is focused on iterative development and the reduction of overheads in the software process. Primary characteristics include rapid delivery of functionality and responsiveness to customers changing requirements. more in [[Agile software development]]

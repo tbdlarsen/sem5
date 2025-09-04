@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ase/Software processes.md",
+                "file": "mi/Artificial Intelligence and Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software processes"
+              "title": "Artificial Intelligence and Agents"
             }
           }
         ],
@@ -186,10 +186,10 @@
   },
   "active": "8e742d25b51e6790",
   "lastOpenFiles": [
+    "ase/Software processes.md",
     "ase/Images/Capability maturity levels.png",
     "ase/Images/process improvement cycle.png",
     "ase/Introduction.md",
-    "ase/Software processes.md",
     "ase/Images/Incremental Delivery.png",
     "ase/Images/Prototype development.png",
     "ase/Images/Integration and configuration.png",

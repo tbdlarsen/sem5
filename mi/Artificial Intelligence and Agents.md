@@ -1,11 +1,14 @@
-###### Artificial intelligence
-The field that studies the synthesis and analysis of computational [[Agent|agents]] that act intelligently. 
+##### Artificial intelligence
+The field that studies the synthesis and analysis of computational [[Agent|agents]] that act intelligently.
+###### Artificial vs Natural intelligence
+Although there is no such thing as _fake_ artificial intelligence, the split between natural and artificial intelligence is that, artificial is human-made and natural is nature made. Intelligence is defined by external behavior, like the Turing test.
+
 ###### Scientific goal
 The central scientific goal of AI is to understand the principles take make intelligent behavior possible in natural or artificial systems. This is done by;
 * The analysis of natural and artificial agents.
 * Formulating and testing hypotheses about what it takes to construct intelligent agents.
 * Designing, building, and experimenting with computational systems that perform tasks commonly viewed as requiring intelligence.
-The systems to test these hypotheses and designs are called **Empirical systems**. The goal is not to reach intelligent thought, but to have thought that affect actions and lead to more intelligent behavior.
+The systems to test these hypotheses and designs are called **Empirical systems**.  Is not  the intent to reach intelligent thought, but to have thought that affect actions and lead to more intelligent behavior. The goal of AI research is not general intelligence. It is to augment human intelligence and creativity (make better), known as **Intelligence augmentation**, i.e. helping with tasks. Often AI systems are human-in-the-loop meaning AI is working along with humans to advice or give feedback.
 ###### Engineering goal
 contrary to the [[#Scientific goal]] the engineering goal is the design and synthesis of agents that act intelligently, which leads to useful artifacts.
 ###### Agent
@@ -20,4 +23,11 @@ the aspects that go into acting intelligently include;
 ###### Computational agent
 an [[Agent]] whose decisions about its actions can be explained in terms of computation, meaning its decision can be broken down to primitive operations that can be implemented on a physical device. 
 
-
+#todo the use of the turing model
+#todo Winograd schema
+#todo Grosz question
+#todo Common sense and Knowledge
+#todo intelligence trough other things than language
+#todo natural intelligence
+#todo organizations
+#todo source of human intelligence 

@@ -23,7 +23,7 @@ the aspects that go into acting intelligently include;
 ###### Computational agent
 an [[Agent]] whose decisions about its actions can be explained in terms of computation, meaning its decision can be broken down to primitive operations that can be implemented on a physical device. 
 
-#todo the use of the turing model
+#todo the use of the Turing model
 #todo Winograd schema
 #todo Grosz question
 #todo Common sense and Knowledge
@@ -31,3 +31,39 @@ an [[Agent]] whose decisions about its actions can be explained in terms of comp
 #todo natural intelligence
 #todo organizations
 #todo source of human intelligence 
+
+
+1.3 
+#todo black-box characterizations
+#todo What an agent acts because
+#todo environment and world
+#todo types of agents
+#todo purposive agents
+
+1.4 
+#todo five main application domains
+#todo autonomous delivery and helping bot 
+#todo Diagnostic assistant
+#todo Tutoring agent
+#todo Trading agent
+#todo  Smart home 
+
+1.5 agent design space dimensions
+#todo modularity
+#todo planning horizon
+#todo representation
+#todo computational Limits
+#todo Learning 
+#todo Uncertainty
+#todo Preference
+#todo Number of Agents 
+#todo Interactivity
+#todo interaction of the dimensions
+1.6 Designing Agents
+#todo Simplifying Environment 
+#todo simplifying agents
+#todo tasks
+#todo Defining a solution
+#todo representations 
+
+

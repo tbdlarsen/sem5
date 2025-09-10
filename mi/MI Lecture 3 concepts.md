@@ -1,4 +1,4 @@
-Constraint satisfaction problem (gamma) CSP
+Constraint satisfaction problem ($\gamma$) CSP
 Variables
 Domains 
 Constraints 
@@ -16,3 +16,7 @@ local search
 tractable CSP 
 global constraints 
 Constraint optimization problem (COP)
+
+
+SODUKO SOLVER CODE. 
+WUMPUS CODE. 

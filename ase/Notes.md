@@ -24,3 +24,18 @@ inspect and adapt
 more focus on goal/results than estimation precision or original plan
 
 be sure to see scrum model - inspect and adapt based on transparency 
+
+(see slides on scrum roles)
+roles and tracks
+product owner (po)
+- prepare backlog
+scrum master
+- execute and make things
+Team
+- 
+
+
+
+
+
+critiques - some may dislike daily  stand up, hard to make backlog if product is unknown/ no PO, Technical debt, requires commitment from all parties involved, incoming urgent tasks may delay sprint backlog, conflicts may occur in sprint retrospective.

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/Artificial Intelligence and Agents.md",
+                "file": "ase/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Artificial Intelligence and Agents"
+              "title": "Notes"
             }
           }
         ],
@@ -186,8 +186,9 @@
   },
   "active": "8e742d25b51e6790",
   "lastOpenFiles": [
-    "ase/Software processes.md",
     "mi/Artificial Intelligence and Agents.md",
+    "ase/Notes.md",
+    "ase/Software processes.md",
     "ase/Images/Capability maturity levels.png",
     "ase/Images/process improvement cycle.png",
     "ase/Introduction.md",

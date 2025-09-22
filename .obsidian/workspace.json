@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ase/eXtreme programming.md",
+                "file": "mi/MI lecture 4 concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eXtreme programming"
+              "title": "MI lecture 4 concepts"
             }
           }
         ]
@@ -171,11 +171,12 @@
   },
   "active": "07d21ab0c5d6d986",
   "lastOpenFiles": [
-    "ase/eXtreme programming.md",
-    "ase/Scrum.md",
-    "mi/MI Lecture 3 concepts.md",
-    "ase/Software processes.md",
     "mi/Artificial Intelligence and Agents.md",
+    "mi/MI lecture 4 concepts.md",
+    "mi/MI Lecture 3 concepts.md",
+    "ase/Scrum.md",
+    "ase/eXtreme programming.md",
+    "ase/Software processes.md",
     "ase/Images/Scrum sprint model.png",
     "ase/Images/Capability maturity levels.png",
     "ase/Images/process improvement cycle.png",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/MI lecture 5 concepts.md",
+                "file": "dbs/Relational Model Core concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MI lecture 5 concepts"
+              "title": "Relational Model Core concepts"
             }
           }
         ]
@@ -171,8 +171,15 @@
   },
   "active": "07d21ab0c5d6d986",
   "lastOpenFiles": [
-    "mi/Exercises 4.md",
+    "dbs/Images",
+    "dbs/Images/Relational table.png",
+    "dbs/SQL",
+    "dbs/introduction.md",
+    "dbs/Relational Model Core concepts.md",
+    "dbs/Database Systems Complete Book.pdf",
+    "dbs/Database System Concepts.pdf",
     "mi/MI lecture 5 concepts.md",
+    "mi/Exercises 4.md",
     "mi/Untitled-1.py",
     "mi/MI lecture 4 concepts.md",
     "mi/Artificial Intelligence and Agents.md",

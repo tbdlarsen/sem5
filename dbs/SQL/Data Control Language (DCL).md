@@ -39,3 +39,5 @@ class char(2) DEFAULT 'C1'
 
 
 
+###### Foreign keys
+Foreign keys must only reference an existing value in the relation in which it is referencing.

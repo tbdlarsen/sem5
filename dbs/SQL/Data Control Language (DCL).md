@@ -90,3 +90,16 @@ ALTER TABLE student
 ALTER TABLE student
 	ALTER COLUMN semester SET NOT NULL;
 ```
+
+
+###### Deleting a table
+```SQL
+DROP TABLE student;
+```
+when using the drop keyword it deletes the content of the table but not the table itself.
+
+
+```SQL
+TRUNCATE TABLE student;
+```
+truncate cannot be used if another table has a foreign key that references the table we want to delete.  

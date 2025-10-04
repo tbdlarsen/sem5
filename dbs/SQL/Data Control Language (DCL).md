@@ -41,3 +41,23 @@ class char(2) DEFAULT 'C1'
 
 ###### Foreign keys
 Foreign keys must only reference an existing value in the relation in which it is referencing.
+```SQL
+CREATE TABLE professor(
+id integer PRIMARY KEY,
+name varchar(20) NOT NULL,
+rank char(2)
+);
+
+
+CREATE TABLE course(
+courseid integer PRIMARY KEY,
+title varchar(20) NOT NULL,
+ects integer,
+taughtby integer,
+FOREIGN KEY(taughtby) REFERENCES professor(id)
+);
+
+```
+Foreign keys can also reference candidate keys enforced with UNIQUE constraints. In a [[Relational Model Core concepts#Relation| relational schema]] any attribute that makes logical sense can be used as keys. Although it is considered bad practice to use keys with text for performance reasons, use integer surrogate keys when possible.
+
+###### Changing table definitions

@@ -15,3 +15,14 @@ Note, we cannot insert two tuples with the same primary key, because of the UNIQ
 
 
 ###### Delete
+the DELETE keyword is used when we want to delete something from a [[Relational Model Core concepts#Relation|relation]].
+```SQL
+DELETE FROM student;
+```
+This will delete all entries in the student table. 
+
+```SQL
+DELETE FROM student
+WHERE semester > 2;
+```
+This will delete all entries where the semester is larger than 2. 

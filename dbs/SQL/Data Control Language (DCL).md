@@ -61,3 +61,32 @@ FOREIGN KEY(taughtby) REFERENCES professor(id)
 Foreign keys can also reference candidate keys enforced with UNIQUE constraints. In a [[Relational Model Core concepts#Relation| relational schema]] any attribute that makes logical sense can be used as keys. Although it is considered bad practice to use keys with text for performance reasons, use integer surrogate keys when possible.
 
 ###### Changing table definitions
+After creating a table, it is possible to add/remove attributes and constraints. 
+```SQL
+CREATE TABLE student(
+id integer PRIMARY KEY,
+name varchar(20) NOT NULL,
+semester integer
+);
+```
+
+**Adding an attribute**
+```SQL
+ALTER TABLE student
+	ADD COLUMN study_group integer;
+```
+**Deleting and attribute**
+```SQL
+ALTER TABLE student
+	DROP COLUMN semester;
+```
+**Changing and attribute type**
+```SQL
+ALTER TABLE student
+	ALTER COLUMN name type varchar(25);
+```
+**Add an attribute constraint**
+```SQL
+ALTER TABLE student
+	ALTER COLUMN semester SET NOT NULL;
+```

@@ -22,5 +22,10 @@ INSERT INTO study_group (tid, weekday, room, starttime) VALUES
 ((SELECT tid FROM tutor WHERE first_name='Lise' AND last_name='Hansen'), 'Friday', 'Room 101', '10:00'),
 ((SELECT tid FROM tutor WHERE first_name='Mark' AND last_name='Nielsen'), 'Thursday', 'Room 103', '11:00');
 
+INSERT INTO member (sid, gid) VALUES
+((SELECT sid FROM student WHERE first_name='Helle' AND last_name='Hansen' LIMIT 1), (SELECT gid FROM study_group WHERE weekday='Monday' LIMIT 1)),
+((SELECT sid FROM student WHERE first_name='Mads' AND last_name='Larsen' LIMIT 1), (SELECT gid FROM study_group WHERE weekday='Wednesday' LIMIT 1)),
+((SELECT sid FROM student WHERE first_name='Carlo' AND last_name='Hansen' LIMIT 1), (SELECT gid FROM study_group WHERE weekday='Friday' LIMIT 1));
+
 
 

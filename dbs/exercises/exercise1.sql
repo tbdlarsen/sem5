@@ -21,15 +21,30 @@ CREATE SEQUENCE study_group_id START 1;
 
 CREATE TABLE study_group(
     gid integer DEFAULT nextval('study_group_id') PRIMARY KEY,
-    tid integer NOT NULL,
+    tid integer REFERENCES tutor(tid),
     weekday varchar(20) NOT NULL,
-    room varchar (20),
-    starttime time,
-    FOREIGN KEY(tid) REFERENCES tutor(tid)
+    room varchar(20),
+    starttime time
 );
 
 CREATE SEQUENCE exercise_nr START 1;
 
 CREATE TABLE exercise(
-    
+    eid integer DEFAULT nextval('exercise_nr') PRIMARY KEY,
+    maxpoints integer
+);
+
+CREATE TABLE hands_in(
+    sid integer REFERENCES student(sid),
+    eid integer REFERENCES exercise(eid),
+    achieved_points integer,
+    --FOREIGN KEY(sid) REFERENCES student(sid),
+    --FOREIGN KEY(eid) REFERENCES exercise(eid),
+    PRIMARY KEY(sid, eid)
+);
+
+CREATE TABLE member(
+    sid integer REFERENCES student(sid),
+    gid integer REFERENCES study_group(gid),
+    PRIMARY KEY(sid,gid)
 );

@@ -171,6 +171,11 @@
   },
   "active": "07d21ab0c5d6d986",
   "lastOpenFiles": [
+    "dbs/exercises/Exercises_1/exercise2.sql",
+    "dbs/exercises/Exercises_1/test_data.sql",
+    "dbs/exercises/exercise2.sql",
+    "dbs/exercises/Exercises_1/exercise1.sql",
+    "dbs/exercises/Exercises_1",
     "dbs/SQL/Transaction Control Language (TCL).md",
     "dbs/SQL/Data Query Language (DQL).md",
     "dbs/SQL/Data Manipulation Language (DML).md",
@@ -188,7 +193,6 @@
     "dbs/introduction.md",
     "mi/MI lecture 5 concepts.md",
     "mi/Exercises 4.md",
-    "mi/Untitled-1.py",
     "mi/MI lecture 4 concepts.md",
     "mi/Artificial Intelligence and Agents.md",
     "mi/MI Lecture 3 concepts.md",
@@ -204,9 +208,7 @@
     "ase/Images/Integration and configuration.png",
     "ase/Group tasks.md",
     "ase/Images/Reuse-oriented software engineering.png",
-    "ase/Images",
     "ase/Images/Waterfall-model.jpg",
-    "ase/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf",
     "ase/Images/Incemental development.jpg"
   ]
 }

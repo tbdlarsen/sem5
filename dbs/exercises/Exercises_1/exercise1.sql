@@ -4,7 +4,8 @@ CREATE TABLE student(
    sid integer DEFAULT nextval('student_id') PRIMARY KEY,
    first_name varchar(20) NOT NULL,
    last_name varchar(20) NOT NULL,
-   is_senior boolean DEFAULT FALSE
+   semester integer NOT NULL,
+   birthdate date
 
 );
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbs/SQL/Data Manipulation Language (DML).md",
+                "file": "dbs/SQL/Data Control Language (DCL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Manipulation Language (DML)"
+              "title": "Data Control Language (DCL)"
             }
           }
         ]
@@ -171,13 +171,15 @@
   },
   "active": "07d21ab0c5d6d986",
   "lastOpenFiles": [
-    "dbs/SQL/Data Control Language (DCL).md",
-    "dbs/SQL/Base definitions.md",
-    "dbs/SQL/Data Manipulation Language (DML).md",
-    "dbs/SQL/Data Definition Language (DDL).md",
-    "dbs/Relational Model Core concepts.md",
     "dbs/SQL/Transaction Control Language (TCL).md",
     "dbs/SQL/Data Query Language (DQL).md",
+    "dbs/SQL/Data Manipulation Language (DML).md",
+    "dbs/SQL/Data Definition Language (DDL).md",
+    "dbs/SQL/Data Control Language (DCL).md",
+    "dbs/exercises/exercise1.sql",
+    "dbs/exercises",
+    "dbs/SQL/Base definitions.md",
+    "dbs/Relational Model Core concepts.md",
     "dbs/Database Systems Complete Book.pdf",
     "dbs/Database System Concepts.pdf",
     "dbs/Images",

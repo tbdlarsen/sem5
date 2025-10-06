@@ -78,3 +78,22 @@ CREATE TABLE works_on(
 		1. super key, not candidate key since dname is not essential.
 	4. {did, location}
 		1. super key, not candidate key since location is not essential.
+
+# 2 Relational algebra
+Assume the `University` schema:
+* employee(<u>eid</u>, ename, did -> department_id)
+* department(<u>did</u>, dname, location)
+* works_on(<u>eid</u> -> employee.eid, <u>pid</u> -> project.pid, hours)
+* project(<u>pid</u>, pname, budget)
+(primary keys are underlined, foreign keys are arrows)7
+
+## 2.1 State the returns
+1. $\pi_{ename}(\sigma_{location='Aalborg'}(employee \bowtie department))$
+	1. first join employee and department, to get (eid,ename, did, dname, location) then filter for tuples where location = Aalborg, then display ename. So it gets employees that are at a department located in Aalborg.
+2. $\pi_{ename,pname}(\sigma_{hours>20}(employee \bowtie_{employee.eid=works\_on.eid} works\_on \bowtie project))$ 
+	1. first join employees with works_on where employee.eid = works_on.eid so we get (eid,ename,did,eid,pid,hours). Then natural join that with project to get the projects each employee is currently working on (eid,ename,did,eid,pid,hours,pname,budget). Then we filter the hours attribute to get the ones where hours>20. Then we display ename, pname. So we get employee name and project name, for employees that are working on said project for over 20 hours.
+3. $\gamma_{pid;count(eid)}(\sigma_{hours>10}(works\_on))$
+	1. first we filter the works_on based on the hours attribute and get the ones where hours>10. Then we group by pid, and count based on eid. So we get the project ids, and the count of employees working on the project, where each project has more than 10 hours worked on by each employee. 
+4. a
+5. a
+	1.  We get a table called NoProjectEmp where we have the eid, ename and did of each employee not working on a project. 

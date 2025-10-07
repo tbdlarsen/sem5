@@ -33,31 +33,42 @@ def assign_datapoints(data_points, centers, amount_of_clusters, clusters):
         clusters[closest_cluster].append(data_point)
     return clusters
 
+def get_new_center(cluster,dimension):
+    new_center = []
+    for dim in range(dimension):
+        new_center.append(0)
+        for point in cluster:
+            new_center[dim] += point[dim]
+        new_center[dim] /= len(cluster)
 
+    return new_center
 
 k = 2
 
 S = [[1,2],[3,4],[1.2,3.4]]
-dimension = len(S[1])
+dimension = len(S[0])
 
 clusters = initial_clusters(k)
 centers = initial_centers(dimension,S)
 clusters = assign_datapoints(S,centers,k,clusters)
 
-new_centers = initial_centers(dimension,S)
-
-print(clusters)
-for i in range(len(clusters[0])):
-    
-    new_centers[0] += clusters[0][i]
+new_centers = []
+for i in range(k):
+    new_centers.append([])
+    for j in range(dimension):
+        new_centers[i].append(0)
+        
 print(new_centers)
-new_centers[0] /= len(clusters[0])
-
-
-
-
-
-
-
-
+print(clusters)
 print(centers)
+print()
+
+new_centers[0] = get_new_center(clusters[0],dimension)
+
+
+print(new_centers)
+
+
+
+
+

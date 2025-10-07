@@ -1,7 +1,7 @@
 import sys
-def initial_centers(dimension, data):
+def initial_centers(k, data):
     init = []
-    for i in range(dimension):
+    for i in range(k):
         init.append(data[i])
     return init
 
@@ -11,7 +11,7 @@ def initial_clusters(amount_of_clusters):
         clusters.append([])
     return clusters
 
-def euclidian_dist(x,y) -> float:
+def euclidian_dist(x,y):
     dist = 0
     for i in range(len(x)):
         dist += (x[i]-y[i])**2
@@ -43,31 +43,61 @@ def get_new_center(cluster,dimension):
 
     return new_center
 
+def init_new_centers(dimension, amount_of_clusters):
+    new_centers = []
+    for i in range(amount_of_clusters):
+        new_centers.append([])
+        for j in range(dimension):
+            new_centers[i].append(0)
+    
+    return new_centers
+
+
+def new_centers(clusters, dimension):
+    centers = init_new_centers(dimension, len(clusters))
+    for i in range(len(centers)):
+        centers[i] = get_new_center(clusters[i],dimension)
+    return centers
+
+def center_difference(old_centers, new_centers):
+    tolerance = 1e-6
+    for old,new in zip(old_centers,new_centers):
+        if (euclidian_dist(old,new) > tolerance):
+            return True
+    return False
+
 k = 2
 
 S = [[1,2],[3,4],[1.2,3.4]]
 dimension = len(S[0])
 
 clusters = initial_clusters(k)
-centers = initial_centers(dimension,S)
+centers = initial_centers(k,S)
 clusters = assign_datapoints(S,centers,k,clusters)
+next_centers= new_centers(clusters,dimension)
 
-new_centers = []
-for i in range(k):
-    new_centers.append([])
-    for j in range(dimension):
-        new_centers[i].append(0)
-        
-print(new_centers)
+
 print(clusters)
 print(centers)
 print()
 
-new_centers[0] = get_new_center(clusters[0],dimension)
+while(center_difference(centers,next_centers)):
+    clusters = initial_clusters(k)
+    centers = next_centers
+    clusters = assign_datapoints(S,centers,k,clusters)
+    next_centers= new_centers(clusters,dimension)
+
+    print(clusters)
+    print(centers)
+    print()
 
 
-print(new_centers)
 
+print("final")
+print(clusters)
+print(centers)
+print()
+        
 
 
 

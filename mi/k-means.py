@@ -78,6 +78,8 @@ def iterate_k_means(centers,k,S,dimension):
         clusters = initial_clusters(k)
         clusters = assign_datapoints(S,centers,k,clusters)
         next_centers= new_centers(clusters,dimension)
+        print("next centers: ",next_centers)
+        print("cluser: ", clusters)
     return(centers, clusters)
 
 
@@ -85,9 +87,9 @@ def iterate_k_means(centers,k,S,dimension):
 def main():
 
     k = 2
-    S = [[1,2],[3,4],[1.2,3.4]]
+    S = [[2,8],[2,4],[4,6],[10,2],[12,4],[12,8],[16,6]]
     dimension = len(S[0])
-    centers = initial_centers(k,S)
+    centers = [[8,8],[14,2]]
 
     centers, clusters = iterate_k_means(centers, k, S,dimension)
 

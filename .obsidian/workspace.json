@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/exercises/Sheet2/Exercise1.md",
+                "file": "mi/exercises/Sheet3/Exercise 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise1"
+              "title": "Exercise 3"
             }
           }
         ]
@@ -171,8 +171,10 @@
   },
   "active": "07d21ab0c5d6d986",
   "lastOpenFiles": [
-    "mi/exercises/Sheet2/images/Exercise_1.png",
-    "mi/exercises/Sheet2/Exercise1.md",
+    "mi/exercises/Sheet2/Exercise2.md",
+    "mi/exercises/Sheet3/Exercise 3.md",
+    "mi/exercises/Sheet3",
+    "mi/exercises/Sheet2/images/Exercise_2.png",
     "mi/exercises/Sheet2/images",
     "dbs/exercises/Exercises_4/Exercises.md",
     "dbs/SQL/Data Control Language (DCL).md",
@@ -190,7 +192,6 @@
     "dbs/exercises",
     "dbs/SQL/Base definitions.md",
     "dbs/Relational Model Core concepts.md",
-    "dbs/Database Systems Complete Book.pdf",
     "dbs/Images/Relational table.png",
     "dbs/introduction.md",
     "mi/MI lecture 5 concepts.md",

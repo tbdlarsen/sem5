@@ -25,7 +25,6 @@ def ac3(gamma):
         u,v = worklist.pop(0)
         constraints = gamma[2].get((u,v), [])
         
-        
         domains, change = revise(u,v,domains, constraints)
         if change:
             for w in variables:
@@ -35,20 +34,16 @@ def ac3(gamma):
     
 
 
-V = {'v0','v1','v2'}
+V = {'v0','v1'}
 D = {
-    'v0':[1,2,3,4],
-    'v1':[1,2,3],
-    'v2':[0,2,3]
+    'v0':[1,2],
+    'v1':[1,2,3]
 }
 
 C = {
     ('v0','v1'): [
-        lambda v0,v1: v0 != v1,
-        lambda v0,v1: v0 < v1
-    ],
-    ('v1','v2'): [
-        lambda v1,v2: v1 < v2
+        lambda x,y: x < y,
+        
     ]
     
 }

@@ -169,8 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "07d21ab0c5d6d986",
+  "active": "872a6cb82696c452",
   "lastOpenFiles": [
+    "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png",
+    "dbs/exercises/Exercises_5/Images",
+    "dbs/exercises/Exercises_5/Images/4-b+-tree.png",
     "mi/exercises/Sheet3/Exercise 3.md",
     "dbs/exercises/Exercises_5/Exercises.md",
     "dbs/exercises/Exercises_5",
@@ -190,7 +193,6 @@
     "dbs/SQL/Data Query Language (DQL).md",
     "dbs/SQL/Data Manipulation Language (DML).md",
     "dbs/SQL/Data Definition Language (DDL).md",
-    "dbs/exercises/exercise1.sql",
     "dbs/SQL/Base definitions.md",
     "dbs/Relational Model Core concepts.md",
     "dbs/Images/Relational table.png",
@@ -211,7 +213,6 @@
     "ase/Images/Prototype development.png",
     "ase/Images/Integration and configuration.png",
     "ase/Group tasks.md",
-    "ase/Images/Reuse-oriented software engineering.png",
-    "ase/Images/Waterfall-model.jpg"
+    "ase/Images/Reuse-oriented software engineering.png"
   ]
 }

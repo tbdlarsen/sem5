@@ -1,18 +1,14 @@
 
 import inspect
 
-def revise(gamma, point):
+def revise(u,v, domains, constraints):
 
     change = False
-    domains = gamma[1]
-    constraints = gamma[2].get((point), [])
-
-    u,v = point
-    for i in D[u][:]:
+    for i in domains[u][:]:
         if not any(all(constraint(i,j) for constraint in constraints) for j in domains[v]):
             domains[u].remove(i)
             change = True
-    return gamma, change
+    return domains, change
 
 def init_worklist(gamma):
     worklist = []
@@ -22,15 +18,24 @@ def init_worklist(gamma):
 
 def ac3(gamma):
     worklist = init_worklist(gamma)
-   
+    variables = gamma[0]
+    domains = gamma[1]
 
-    gamma, change = revise(gamma,worklist[0])
-    print("change: ", change)
-    return gamma
+    while worklist:
+        u,v = worklist.pop(0)
+        constraints = gamma[2].get((u,v), [])
+        
+        
+        domains, change = revise(u,v,domains, constraints)
+        if change:
+            for w in variables:
+                if w != v and (w,u) in gamma[2]:
+                    worklist.append((w,u))
+    return domains
     
 
 
-V = {'v0','v1'}
+V = {'v0','v1','v2'}
 D = {
     'v0':[1,2,3,4],
     'v1':[1,2,3],
@@ -51,11 +56,9 @@ C = {
 
 
 gamma = (V,D,C)
-worklist = ac3(gamma)
+final_domains = ac3(gamma)
 
-print(gamma)
-
-print(worklist)
+print(final_domains)
 
 
 #todo Arc consistency

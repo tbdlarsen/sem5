@@ -51,12 +51,11 @@ C = {
 
 
 gamma = (V,D,C)
-final_domains = ac3(gamma)
+arc_consistent_domains = ac3(gamma)
 
-print(final_domains)
+print(arc_consistent_domains)
 
 
-#todo Arc consistency
 #todo Backtracking search
 #todo Inference
 #todo Variable elimination

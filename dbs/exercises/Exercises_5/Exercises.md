@@ -34,3 +34,36 @@ This would result in a duplicate v3 key.
 	![[4-b+-tree.png]]
 	1. do the following sequence to the tree: Insert 9, Insert 10, Insert 8, Delete 23, Delete 19
 	   ![[4-b+-tree-insert.png]]
+4. Useful Index 
+	1. For the follwing queries, discuss which index(es) would be useful?
+	* Please describe all the characteristics of the index (sparse or dense? primary or secondary? hashing? multi-level?) as well as the attribute(s) used as search key in the index(es). Include any assumptions that are relevant to justify your choice
+```postgreSQL
+SELECT s.sid, s.lastname
+FROM student s 
+	JOIN member m ON n.sid = s.sid
+	JOIN studygroup g ON g.gid = m.gid
+	JOIN tutor t ON t.tid = g.tid
+WHERE t.issenior = false
+	AND s.semester < 4;
+```
+Here we can use s.sid, g.gid, and t.tid as keys, these are presumed primary keys for each of their respective relation. Since we need all occurrences the semester is larger than 4 a B+-Tree would make for good lookup.
+
+```postgreSQL
+SELECT w.eid, s.sid, s.lastname
+FROM student s
+	JOIN handsin w ON w.sid = s.sid
+	JOIN exercisesheet b on b.eid = w.eid
+WHERE w.achievedpoints = b.maxpoints;
+```
+Here we can use w.eid, s.sid and b.eid, these are presumed primary keys for each of their respective relation. We can again use B+-trees. 
+
+```postgreSQL
+SELECT e.eid, a
+FROM exercisesheet e LEFT OUTER JOIN (
+	SELECT eid, AVG(achievedpoints) AS a
+	FROM handsin
+	GROUP BY eid
+) AS averages
+ON e.eid = averages.eid;
+```
+Here we can use e.eid and handsin id, these are presumed primary keys for each of their respective relation. We can again use B+-trees. 

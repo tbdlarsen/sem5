@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "17359ab145e414bb",
+        "id": "9df0546eb597f316",
         "type": "tabs",
         "children": [
           {
-            "id": "50b56370100e1602",
+            "id": "2fc23964acc46202",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbs/exercises/Exercises_1/Exercises.md",
+                "file": "dbs/exercises/Exercises_2/Exercises.md",
                 "mode": "source",
                 "source": false
               },
@@ -278,10 +278,14 @@
       }
     ]
   },
-  "active": "50b56370100e1602",
+  "active": "2fc23964acc46202",
   "lastOpenFiles": [
-    "dbs/exercises/Exercises_5/Exercises.md",
+    "dbs/exercises/Exercises_2/exercise_1.sql",
     "dbs/exercises/Exercises_1/Exercises.md",
+    "dbs/exercises/Exercises_2/Exercises.md",
+    "dbs/exercises/Exercises_2",
+    "dbs/exercises/Exercises_1/Untitled",
+    "dbs/exercises/Exercises_5/Exercises.md",
     "dbs/SQL/Base definitions.md",
     "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
     "dbs/Relational Model Core concepts.md",
@@ -311,8 +315,6 @@
     "mi/exercises/Sheet2/Exercise2.md",
     "mi/exercises/Sheet3",
     "mi/exercises/Sheet2/images",
-    "dbs/exercises/Exercises_4",
-    "dbs/exercises/Exercises_1/exercise2.sql",
     "dbs/Images/Relational table.png",
     "ase/Scrum.md",
     "ase/eXtreme programming.md",

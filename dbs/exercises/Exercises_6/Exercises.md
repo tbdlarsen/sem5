@@ -57,8 +57,27 @@ And
 
 
 1. What is the estimate size of $r_1 \bowtie r_2$
+We know that $Max(C_{r_1}, C_{r_2})=1100$ from the given values, then the total must be
+$\frac{|r_1| \times |r_2|}{Max(C_{r_1},C_{r_2})}=1364$
+
 2. What is the estimate size of $r_1 \bowtie r_3$
-3. What is the estimate size of 
+$r_1$ and $r_3$ have no items in common so the total would be $|r_1| \times |r_3| = 750000$
+
+3. What is the estimate size of $r_2 \bowtie r_3$
+We know that $Max(E_{r_2}, E_{r_3})=100$ from the given values, then the total must be
+$\frac{|r_2| \times |r_3|}{Max(E_{r_2},E_{r_3})}=11250$
+
+4. Estimate the size of $r_1 \bowtie r_2  \bowtie r_3$ and give an efficient strategy for computing the join
+Since we know $|r_1| \bowtie |r_2| < |r_1| \bowtie |r_3|$ we would first join $r_1$ with $r_2$ and then join the result with $r_3$ since joining the smaller ones first gives the smallest total result. giving us a total of 
+
+$\frac{|1364| \times |r_3|}{Max(E_{r_{1,2}},E_{r_3})}= 10227$
+
+
+
+
+
+
+5. What would change if instead we say that C is primary key in $r_1$
 
 
 

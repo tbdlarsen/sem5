@@ -45,7 +45,12 @@ def task2(t_pages:int, t_tuples_pr_page:int, s_pages:int, K:int, M:int) -> None:
     print("sort-merge cost: ", sort_merge_cost)
     return
 
+def task3():
+    r1_tuples = 1000
+    r2_tuples = 1500
+    r3_tuples = 750
 
+    
 
 
 

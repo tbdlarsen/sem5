@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbs/exercises/Exercises_2/Exercises.md",
+                "file": "mi/exercises/Sheet10/Exercises.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,6 +171,9 @@
   },
   "active": "2fc23964acc46202",
   "lastOpenFiles": [
+    "dbs/exercises/Exercises_2/Exercises.md",
+    "mi/exercises/Sheet10/Exercises.md",
+    "mi/exercises/Sheet10",
     "mi/exercises/Sheet9/Images/image.png",
     "mi/exercises/Sheet9/Images",
     "mi/exercises/Sheet9/Exercises.md",
@@ -185,7 +188,6 @@
     "dbs/SQL/Base definitions.md",
     "dbs/exercises/Exercises_2/exercise_1.sql",
     "dbs/exercises/Exercises_1/Exercises.md",
-    "dbs/exercises/Exercises_2/Exercises.md",
     "dbs/exercises/Exercises_2",
     "dbs/exercises/Exercises_1/Untitled",
     "dbs/exercises/Exercises_5/Exercises.md",
@@ -204,7 +206,6 @@
     "mi/MI Lecture 3 concepts.md",
     "mi/Exercises 4.md",
     "mi/Artificial Intelligence and Agents.md",
-    "mi/Artificial Intelligence.pdf",
     "mi/exercises/Sheet2/images/Exercise_2.png",
     "mi/exercises/Sheet3/Exercise 3.md",
     "mi/exercises/Sheet2/Exercise2.md",
@@ -215,7 +216,6 @@
     "ase/Images/Scrum sprint model.png",
     "ase/Images/Capability maturity levels.png",
     "ase/Images/process improvement cycle.png",
-    "ase/Images/Incremental Delivery.png",
-    "ase/Images/Prototype development.png"
+    "ase/Images/Incremental Delivery.png"
   ]
 }

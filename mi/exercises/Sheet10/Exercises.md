@@ -39,4 +39,8 @@ $drop(i,x):$
 	$pre\{at(Steffi,x),carrying(i)\},$
 	$add\{empty\},$
 	$del\{carrying(i)\}$
+
+2. Give an optimal plan for the task
+$<fly(Mensa,Council),pickup(Letter,Council),fly(Council,AStA),drop(Letter,AStA),fly(AStA,Council)>$
+	1. the optimal path has 5 actions, so $h^*(I)=5$
 	

@@ -43,4 +43,25 @@ $drop(i,x):$
 2. Give an optimal plan for the task
 $<fly(Mensa,Council),pickup(Letter,Council),fly(Council,AStA),drop(Letter,AStA),fly(AStA,Council)>$
 	1. the optimal path has 5 actions, so $h^*(I)=5$
-	
+
+
+# Task 3 
+Given the planning task in exercises
+
+1. How many states are in this planning task
+There are $2^P$ possible states so $2^5=32$ states 
+2. From the graph given we know that Steffi can be in either C or A, and the Letter can be in C,A or S so:
+
+| State | Steffi | Letter |         |
+| ----- | ------ | ------ | ------- |
+| 0     | C      | S      | initial |
+| 1     | C      | A      |         |
+| 2     | C      | C      |         |
+| 3     | A      | S      |         |
+| 4     | A      | A      |         |
+| 5     | A      | C      |         |
+We can then construct the graph:
+![[Exercise_3_graph.png]]
+
+3. How many reachable states
+Discounting the duplicates, there are 6 reachable states.

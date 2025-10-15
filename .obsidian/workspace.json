@@ -169,8 +169,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2fc23964acc46202",
+  "active": "872a6cb82696c452",
   "lastOpenFiles": [
+    "mi/exercises/Sheet10/Exercise_3_graph.png",
     "dbs/exercises/Exercises_2/Exercises.md",
     "mi/exercises/Sheet10/Exercises.md",
     "mi/exercises/Sheet10",
@@ -212,7 +213,6 @@
     "dbs/Images/Relational table.png",
     "ase/Scrum.md",
     "ase/eXtreme programming.md",
-    "ase/Software processes.md",
     "ase/Images/Scrum sprint model.png",
     "ase/Images/Capability maturity levels.png",
     "ase/Images/process improvement cycle.png",

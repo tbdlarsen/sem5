@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/exercises/Sheet10/Exercises.md",
+                "file": "dbs/Lecture 7 - Transactions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercises"
+              "title": "Lecture 7 - Transactions"
             }
           }
         ]
@@ -166,14 +166,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "872a6cb82696c452",
+  "active": "2fc23964acc46202",
   "lastOpenFiles": [
+    "mi/exercises/Sheet10/Exercises.md",
+    "dbs/Lecture 7 - Transactions.md",
     "mi/exercises/Sheet10/Exercise_3_graph.png",
     "dbs/exercises/Exercises_2/Exercises.md",
-    "mi/exercises/Sheet10/Exercises.md",
     "mi/exercises/Sheet10",
     "mi/exercises/Sheet9/Images/image.png",
     "mi/exercises/Sheet9/Images",
@@ -215,7 +217,6 @@
     "ase/eXtreme programming.md",
     "ase/Images/Scrum sprint model.png",
     "ase/Images/Capability maturity levels.png",
-    "ase/Images/process improvement cycle.png",
-    "ase/Images/Incremental Delivery.png"
+    "ase/Images/process improvement cycle.png"
   ]
 }

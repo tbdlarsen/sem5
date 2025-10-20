@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbs/Lecture 7 - Transactions.md",
+                "file": "mi/exercises/Sheet11/Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 7 - Transactions"
+              "title": "Exercises"
             }
           }
         ]
@@ -172,8 +172,16 @@
   },
   "active": "2fc23964acc46202",
   "lastOpenFiles": [
-    "mi/exercises/Sheet10/Exercises.md",
+    "Pasted image 20251020114058.png",
+    "mi/exercises/Sheet11/minimax-tree-solved.png",
+    "mi/exercises/Sheet11/minimax-tree.png",
+    "mi/exercises/Sheet11/minimax-tree-solved.xcf",
+    "mi/exercises/Sheet11/Exercises.md",
+    "mi/exercises/Sheet11",
+    "dbs/exercises/Exercises_7.md",
+    "dbs/exercises/Exercises_9",
     "dbs/Lecture 7 - Transactions.md",
+    "mi/exercises/Sheet10/Exercises.md",
     "mi/exercises/Sheet10/Exercise_3_graph.png",
     "dbs/exercises/Exercises_2/Exercises.md",
     "mi/exercises/Sheet10",
@@ -197,9 +205,6 @@
     "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
     "dbs/Relational Model Core concepts.md",
     "dbs/introduction.md",
-    "dbs/Database Systems Complete Book.pdf",
-    "dbs/Database System Concepts.pdf",
-    "dbs/exercises/Exercises_1/Images",
     "dbs/exercises/Exercises_1/Untitled.md",
     "dbs/exercises/Exercises_4/Exercises.md",
     "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png",
@@ -211,12 +216,7 @@
     "mi/Artificial Intelligence and Agents.md",
     "mi/exercises/Sheet2/images/Exercise_2.png",
     "mi/exercises/Sheet3/Exercise 3.md",
-    "mi/exercises/Sheet2/Exercise2.md",
     "dbs/Images/Relational table.png",
-    "ase/Scrum.md",
-    "ase/eXtreme programming.md",
-    "ase/Images/Scrum sprint model.png",
-    "ase/Images/Capability maturity levels.png",
-    "ase/Images/process improvement cycle.png"
+    "ase/Images/Scrum sprint model.png"
   ]
 }

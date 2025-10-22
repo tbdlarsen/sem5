@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9df0546eb597f316",
+        "id": "0bacfa1320f0a74f",
         "type": "tabs",
         "children": [
           {
-            "id": "2fc23964acc46202",
+            "id": "556318f4c927af0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/exercises/Sheet11/Exercises.md",
+                "file": "dbs/exercises/Exercises_7/Exercises.md",
                 "mode": "source",
                 "source": false
               },
@@ -170,13 +170,19 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2fc23964acc46202",
+  "active": "556318f4c927af0c",
   "lastOpenFiles": [
+    "dbs/Relational Model Core concepts.md",
+    "conflict-dependency-graph.png..md",
+    "dbs/exercises/Exercises_7/Exercises.md",
+    "dbs/exercises/Exercises_7/Images/conflict-dependency-graph.png",
+    "dbs/exercises/Exercises_7/Images",
+    "dbs/exercises/Exercises_7",
+    "mi/exercises/Sheet11/Exercises.md",
     "Pasted image 20251020114058.png",
     "mi/exercises/Sheet11/minimax-tree-solved.png",
     "mi/exercises/Sheet11/minimax-tree.png",
     "mi/exercises/Sheet11/minimax-tree-solved.xcf",
-    "mi/exercises/Sheet11/Exercises.md",
     "mi/exercises/Sheet11",
     "dbs/exercises/Exercises_7.md",
     "dbs/exercises/Exercises_9",
@@ -199,11 +205,8 @@
     "dbs/SQL/Base definitions.md",
     "dbs/exercises/Exercises_2/exercise_1.sql",
     "dbs/exercises/Exercises_1/Exercises.md",
-    "dbs/exercises/Exercises_2",
-    "dbs/exercises/Exercises_1/Untitled",
     "dbs/exercises/Exercises_5/Exercises.md",
     "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
-    "dbs/Relational Model Core concepts.md",
     "dbs/introduction.md",
     "dbs/exercises/Exercises_1/Untitled.md",
     "dbs/exercises/Exercises_4/Exercises.md",
@@ -214,9 +217,6 @@
     "mi/MI Lecture 3 concepts.md",
     "mi/Exercises 4.md",
     "mi/Artificial Intelligence and Agents.md",
-    "mi/exercises/Sheet2/images/Exercise_2.png",
-    "mi/exercises/Sheet3/Exercise 3.md",
-    "dbs/Images/Relational table.png",
-    "ase/Images/Scrum sprint model.png"
+    "mi/exercises/Sheet2/images/Exercise_2.png"
   ]
 }

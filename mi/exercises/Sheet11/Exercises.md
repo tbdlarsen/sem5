@@ -16,5 +16,4 @@ if he plays against an non-optimal opponent he could choose the rightmost branch
 ## 2.1 Finish the full Minimax tree and annotate each node with its utility
 
 consider the coordinates 0-2 for rows and 0-2 for columns, so X01 is an x in row 0 column 1.
-
-![[Pasted image 20251020114058.png]]
+![[tic-tac-toe-tree.png]]

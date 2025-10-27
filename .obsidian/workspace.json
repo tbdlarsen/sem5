@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/Concepts/Search problems.md",
+                "file": "mi/exercises/Sheet11/Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Search problems"
+              "title": "Exercises"
             }
           }
         ]
@@ -173,19 +173,20 @@
   "active": "2fc23964acc46202",
   "lastOpenFiles": [
     "mi/exercises/Sheet11/tic-tac-toe-tree.png",
+    "mi/exercises/Sheet11/Exercises.md",
+    "mi/exercises/Sheet11/tictactoe-tree.svg",
+    "mi/Concepts/Search problems.md",
     "dbs/exercises/Exercises_7/Images/conflict-dependency-graph.png",
     "dbs/exercises/Exercises_7/Images",
     "dbs/exercises/Exercises_7/Exercises.md",
     "dbs/exercises/Exercises_7",
     "conflict-dependency-graph.png..md",
     "mi/Exercises 4.md",
-    "mi/Concepts/Search problems.md",
     "mi/Concepts",
     "mi/MI lecture 5 concepts.md",
     "mi/MI lecture 4 concepts.md",
     "mi/MI Lecture 3 concepts.md",
     "mi/k-means.py",
-    "mi/exercises/Sheet11/Exercises.md",
     "Pasted image 20251020114058.png",
     "mi/exercises/Sheet11/minimax-tree-solved.png",
     "mi/exercises/Sheet11/minimax-tree.png",
@@ -215,8 +216,6 @@
     "dbs/Relational Model Core concepts.md",
     "dbs/introduction.md",
     "dbs/exercises/Exercises_1/Untitled.md",
-    "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png",
-    "dbs/exercises/Exercises_5/Images/4-b+-tree.png",
-    "mi/exercises/Sheet2/images/Exercise_2.png"
+    "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png"
   ]
 }

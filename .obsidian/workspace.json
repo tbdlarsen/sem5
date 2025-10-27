@@ -170,8 +170,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "872a6cb82696c452",
+  "active": "2fc23964acc46202",
   "lastOpenFiles": [
+    "dbs/exercises/exercises_9/multivalue_attribute.png",
     "dbs/exercises/exercises_9/exercise_9.3.png",
     "dbs/exercises/exercises_9/exercise_9.2.png",
     "mi/exercises/Sheet11/Exercises.md",
@@ -215,7 +216,6 @@
     "dbs/SQL/Base definitions.md",
     "dbs/exercises/Exercises_1/Exercises.md",
     "dbs/exercises/Exercises_5/Exercises.md",
-    "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
     "dbs/Relational Model Core concepts.md",
     "dbs/introduction.md"
   ]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mi/exercises/Sheet11/Exercises.md",
+                "file": "dbs/exercises/exercises_9/Exercises.md",
                 "mode": "source",
                 "source": false
               },
@@ -172,8 +172,11 @@
   },
   "active": "2fc23964acc46202",
   "lastOpenFiles": [
-    "mi/exercises/Sheet11/tic-tac-toe-tree.png",
+    "dbs/exercises/exercises_9/exercise_2.png",
     "mi/exercises/Sheet11/Exercises.md",
+    "dbs/exercises/exercises_9/Exercises.md",
+    "dbs/exercises/exercises_9",
+    "mi/exercises/Sheet11/tic-tac-toe-tree.png",
     "mi/exercises/Sheet11/tictactoe-tree.svg",
     "mi/Concepts/Search problems.md",
     "dbs/exercises/Exercises_7/Images/conflict-dependency-graph.png",
@@ -202,7 +205,6 @@
     "mi/exercises/Sheet9/Images/image.png",
     "mi/exercises/Sheet9/Images",
     "mi/exercises/Sheet9/Exercises.md",
-    "mi/exercises/Sheet9",
     "dbs/exercises/Exercises_6/Exercises.md",
     "dbs/SQL/Transaction Control Language (TCL).md",
     "dbs/SQL/Data Query Language (DQL).md",
@@ -215,7 +217,6 @@
     "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
     "dbs/Relational Model Core concepts.md",
     "dbs/introduction.md",
-    "dbs/exercises/Exercises_1/Untitled.md",
     "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png"
   ]
 }

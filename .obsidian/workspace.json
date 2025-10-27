@@ -170,9 +170,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2fc23964acc46202",
+  "active": "872a6cb82696c452",
   "lastOpenFiles": [
-    "dbs/exercises/exercises_9/exercise_2.png",
+    "dbs/exercises/exercises_9/exercise_9.3.png",
+    "dbs/exercises/exercises_9/exercise_9.2.png",
     "mi/exercises/Sheet11/Exercises.md",
     "dbs/exercises/exercises_9/Exercises.md",
     "dbs/exercises/exercises_9",
@@ -216,7 +217,6 @@
     "dbs/exercises/Exercises_5/Exercises.md",
     "dbs/exercises/Exercises_1/Images/Exercise_1_image.png",
     "dbs/Relational Model Core concepts.md",
-    "dbs/introduction.md",
-    "dbs/exercises/Exercises_5/Images/4-b+-tree-insert.png"
+    "dbs/introduction.md"
   ]
 }
